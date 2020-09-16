@@ -157,3 +157,40 @@ li {
   padding-left: 15px;
   color: red;
 }
+#hot {
+  width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+#hot > li {
+  float: left;
+  width: 230px;
+  margin: 30px 10px 0px 10px;
+  position: relative;
+  border: 1px #ccc solid;
+  box-sizing: border-box;
+  border-radius: 10px;
+  overflow: hidden;
+}
+#hot > li p {
+  margin-top: 10px;
+  line-height: 20px;
+  height: 60px;
+}
+#hot > li span:nth-of-type(1) {
+  float: right;
+  background: url(../image/icon/reply.png) no-repeat 0px 5px;
+  padding-left: 15px;
+  color: red;
+  width: 20px;
+}
+#hot > li span:nth-of-type(2) {
+  float: right;
+  width: 20px;
+  margin-left: 10px;
+  background: url(../image/icon/xin.png) no-repeat 0px 5px;
+  padding-left: 15px;
+  color: red;
+}
+
